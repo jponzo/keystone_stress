@@ -2,4 +2,5 @@
 Stress testing of Openstack Keystone service:
 
 USAGE:
->python ldap_stress.py <USERS> <TOKENS_PER_USER>
+Set your keystone endpoint and credentials in the code.
+>python keystone_stress_concurrent.py <USERS> <TOKENS_PER_USER>
